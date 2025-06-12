@@ -9,7 +9,7 @@ It is a website of a fictional medical institution named Medio Clinic.
 To make the project work, follow these steps:
 
 1. Make sure your computer meets the [system requirements](https://docs.kentico.com/k12/installation/system-requirements) outlined in the documentation.
-1. Clone the repo (`git clone https://github.com/Kentico/training-kentico-k12`).
+1. Clone the repo (`git clone https://github.com/dmytrodev21/kentico-website`).
 1. Extract a database backup file out of [/Db/MedioClinic.zip](/Db/MedioClinic.zip).
 1. Start your [SQL Server management studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) and restore the extracted MedioClinic.bak file.
 1. Register both the [administration interface](/CMS) and the [Medio Clinic website](/MedioClinic) in IIS.
@@ -27,7 +27,3 @@ To make the project work, follow these steps:
         * Under the Servers section > Project Url, set the correct URL according to your IIS configuration.
 1. Build the solution.
 1. Open the `/Config/ConnectionStrings.config` file to eventually adjust the connection string (in the same way as you did with the administration interface project).
-
-## Troubleshooting
-
-If you encounter a problem while going through the course, please let us know either through the course survey or by [filing an issue](https://github.com/Kentico/training-kentico-k12/issues/new) here in GitHub.
